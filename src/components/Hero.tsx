@@ -6,11 +6,11 @@ const Hero: React.FC = () => {
       {/* Icono centrado arriba */}
       <img
         src="/favicon.ico.png"
-        alt="Logo Talento-Hub"
+  alt="Logo Toche-TI"
         className="w-80 h-80 mb-6 drop-shadow-xl rounded-full bg-white/80 p-2 border border-blue-200"
         style={{ pointerEvents: 'none' }}
       />
-      <h2 className="text-4xl md:text-6xl font-bold mb-4">Portafolio – Talento-Hub</h2>
+  <h2 className="text-4xl md:text-6xl font-bold mb-4">Portafolio – Toche-TI</h2>
       <p className="text-lg md:text-2xl mb-6">Materia: Análisis y Diseño de Sistemas</p>
       <a
         href="#introduccion"

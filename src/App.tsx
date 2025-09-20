@@ -4,8 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
+
 import Footer from "./components/Footer";
 import PdfViewer from "./components/PdfViewer";
+import AboutUs from "./components/AboutUs";
 
 
 const App: React.FC = () => {
@@ -19,7 +21,7 @@ const App: React.FC = () => {
             <Section id="introduccion" title="Introducción">
               <p>
                 Este portafolio documenta el proceso de análisis y diseño del software{" "}
-                <strong>Talento-Hub</strong>, una plataforma web multiempresa para la
+                <strong>Toche-TI</strong>, una plataforma web multiempresa para la
                 gestión integral de procesos de selección de personal.
               </p>
             </Section>
@@ -37,7 +39,7 @@ const App: React.FC = () => {
             </Section>
             <Section id="solucion" title="Descripción de la Solución">
               <p>
-                Talento-Hub permitirá gestionar vacantes, postulaciones, candidatos,
+                Toche-TI permitirá gestionar vacantes, postulaciones, candidatos,
                 notificaciones y reportes en tiempo real, mejorando la eficiencia de
                 Recursos Humanos.
               </p>
@@ -75,7 +77,7 @@ const App: React.FC = () => {
             </Section>
             <Section id="conclusiones" title="Conclusiones">
               <p>
-                El desarrollo de Talento-Hub permitió aplicar conceptos de Análisis y
+                El desarrollo de Toche-TI permitió aplicar conceptos de Análisis y
                 Diseño, estructurando una solución tecnológica con visión ágil y
                 orientada a la gestión de talento humano.
               </p>
@@ -83,7 +85,8 @@ const App: React.FC = () => {
             <Footer />
           </div>
         } />
-        <Route path="/pdfs" element={<PdfViewer />} />
+  <Route path="/pdfs" element={<PdfViewer />} />
+  <Route path="/about" element={<AboutUs />} />
       </Routes>
     </Router>
   );
