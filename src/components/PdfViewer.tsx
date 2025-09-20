@@ -14,8 +14,8 @@ const pdfList = [
     file: "/docs/ADD -Arquitectura de alto nivel -Modelo del Negocio.pdf"
   },
   {
-    title: "Documento 1",
-    file: "/docs/ejemplo1.pdf"
+    title: "EP0-Documento Vision",
+  file: "https://docs.google.com/document/d/13TVYKiaq41Tct60vFhOLx76wylM9Brhf/preview"
   },
   {
     title: "Documento 2",

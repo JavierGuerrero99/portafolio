@@ -4,12 +4,12 @@ const team = [
   {
     name: "Juan Diego Contreras Garcia",
     role: "Product Owner",
-    photo: ""
+    photo: "/JuanDiego.jpg"
   },
   {
     name: "Javier Adrian Ramirez Guerrero",
     role: "Scrum Master",
-    photo: ""
+    photo: "/JavierAdrian.jpg"
   },
   {
     name: "Miguel Angel Cárdenas",
@@ -41,8 +41,11 @@ const AboutUs: React.FC = () => {
         {team.map((member) => (
           <div key={member.name} className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center border border-blue-100">
             <div className="w-32 h-32 bg-blue-100 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-              {/* Aquí puedes poner la foto: <img src={member.photo} alt={member.name} className="w-full h-full object-cover" /> */}
-              <span className="text-6xl text-blue-300">👤</span>
+              {member.photo ? (
+                <img src={member.photo} alt={member.name} className="w-full h-full object-cover" />
+              ) : (
+                <span className="text-6xl text-blue-300">👤</span>
+              )}
             </div>
             <h2 className="text-xl font-semibold text-blue-800 mb-1 text-center">{member.name}</h2>
             <p className="text-blue-600 text-center text-sm">{member.role}</p>
