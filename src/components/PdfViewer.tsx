@@ -6,20 +6,36 @@ import React, { useState } from "react";
 // Ejemplo de PDFs y secciones
 const pdfList = [
   {
-    title: "Documento de Requisitos",
-    file: "/docs/EP2-Documento-de-requisitos-SRS.pdf"
+    title: "Lineamiento para el informe parcial- Fase 1 Planificacion",
+    file: "https://docs.google.com/document/d/11YoODAU0_QZ2zUwhE3UfF3T1HNng7HY2/preview"
   },
   {
-    title: "ADD - Arquitectura de alto nivel",
-    file: "/docs/ADD -Arquitectura de alto nivel -Modelo del Negocio.pdf"
+    title: "D1-Estructura  fase Planificacion- actividades y entregables -Metodologia agil",
+    file: "https://docs.google.com/document/d/1o_vqvunUc-QMThgW1OPrEXMKm8OBFYHV/preview"
+  },
+  {
+    title: "D2- Acta de constitucion de especificacion del sistema",
+    file: "https://docs.google.com/document/d/1PMQe3hw_zt4Z7X9iUB30_2UT00TdQZTu/preview"
   },
   {
     title: "EP0-Documento Vision",
-  file: "https://docs.google.com/document/d/13TVYKiaq41Tct60vFhOLx76wylM9Brhf/preview"
+    file: "https://docs.google.com/document/d/13TVYKiaq41Tct60vFhOLx76wylM9Brhf/preview"
   },
   {
-    title: "Documento 2",
-    file: "/docs/ejemplo2.pdf"
+    title: "EP1- Modelo de negocio (BPMN)",
+    file: "https://docs.google.com/document/d/1ecq5rMJ-QYrD0PqzVFkoRTG_gX0forL2/preview"
+  },
+  {
+    title: "EP2- Documento de Requisitos",
+    file: "https://docs.google.com/document/d/1_xibAQNcE5MOFeNKDj3BInBHkq7RmgTS/preview"
+  },
+  {
+    title: "ADD - Arquitectura de alto nivel",
+    file: "https://docs.google.com/document/d/1KYRCLwHCXT4ltIPOg-5QIUmu1EUNnqYP/preview"
+  },
+  {
+    title: "EP5-Backlog de Producto y las epicas e historias",
+    file: "https://docs.google.com/document/d/15TjVyfbGDXXT6drtfYrt6A5_HgsrF7ik/preview"
   },
 ];
 
